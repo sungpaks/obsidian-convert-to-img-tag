@@ -46,7 +46,7 @@ export default class MyPlugin extends Plugin {
 		// This creates an icon in the left ribbon.
 		const ribbonIconEl = this.addRibbonIcon(
 			"dice",
-			'Convert Images to <img src="" width=100%>',
+			'Convert Images to <img src="" />',
 			(evt: MouseEvent) => {
 				// Called when the user clicks the icon.
 
